@@ -27,7 +27,9 @@
 
 **项目现已脱离 Python 本地服务器限制，点击下方链接即可通过浏览器直接游玩：**
 
-> https://apcipotrain.github.io/minesweeper-vue/*(建议使用 Chrome、Edge 或 Firefox 浏览器以获得最佳体验)*
+> https://apcipotrain.github.io/minesweeper-vue/
+>
+> 建议使用 Chrome、Edge 或 Firefox 浏览器以获得最佳体验
 
 ------
 
