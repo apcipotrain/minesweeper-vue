@@ -3,7 +3,7 @@ body {
     margin: 0;      /*外边距*/
     padding: 0;     /*内边距*/
     height: 100vh;  /*视口高度*/
-    background: url("/assets/images/main_background0.png") center center / cover no-repeat fixed;
+    background: url("images/main_background0.png") center center / cover no-repeat fixed;
     font-family: "Microsoft YaHei", "Segoe UI", sans-serif; /*字体族*/
 }
 

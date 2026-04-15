@@ -56,7 +56,7 @@ onUnmounted(() => {
   <div class="challenge-home">
     <div 
       class="bg-blur" 
-      :style="{ backgroundImage: `url(/images/main_background${bgIndex}.png)` }"
+      :style="{ backgroundImage: `url(images/main_background${bgIndex}.png)` }" 
     ></div>
 
     <button class="back-btn-fixed" @click="emit('back')">返回</button>
@@ -67,10 +67,12 @@ onUnmounted(() => {
           <img src="/images/main_background0.png" class="card-img">
           <div class="card-title">基础规则</div>
         </div>
+
         <div class="card" @click="emit('select', 2)">
           <img src="/images/main_background1.png" class="card-img">
           <div class="card-title">进阶公式</div>
         </div>
+
         <div class="card" @click="emit('select', 3)">
           <img src="/images/main_background2.png" class="card-img">
           <div class="card-title">高难残局</div>

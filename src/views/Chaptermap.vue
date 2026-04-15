@@ -6,9 +6,9 @@ const props = defineProps(['chapterId', 'maxUnlockedId'])
 const emit = defineEmits(['select', 'back'])
 
 const chapterConfigs = {
-  1: { title: "第一章：基础规则", bg: "/images/main_background0.png", panel: "rgba(0,0,0,0.35)", accent: "#5ff38e" },
-  2: { title: "第二章：进阶公式", bg: "/images/main_background1.png", panel: "rgba(20,40,60,0.45)", accent: "#f46ad9" },
-  3: { title: "第三章：高难残局", bg: "/images/main_background2.png", panel: "rgba(60,20,20,0.45)", accent: "#47d3e5" }
+  1: { title: "第一章：基础规则", bg: "images/main_background0.png", panel: "rgba(0,0,0,0.35)", accent: "#5ff38e" },
+  2: { title: "第二章：进阶公式", bg: "images/main_background1.png", panel: "rgba(20,40,60,0.45)", accent: "#f46ad9" },
+  3: { title: "第三章：高难残局", bg: "images/main_background2.png", panel: "rgba(60,20,20,0.45)", accent: "#47d3e5" }
 }
 
 // 核心逻辑：计算当前章节 8 个格子的解锁状态

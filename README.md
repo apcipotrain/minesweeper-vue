@@ -19,62 +19,54 @@
   - **右键**：插旗标记。
   - **双键/长按**：双击已展开数字实现快速开区（Chord 操作）。
 
-## 📦 运行与启动（玩家）
+------
 
-**项目现已脱离 Python 本地服务器限制，可在现代 Web 环境下直接运行：**
+## 📦 运行与启动
 
-1. **安装依赖**：
+### 普通玩家
 
-   ```Bash
-   npm install
+**项目现已脱离 Python 本地服务器限制，点击下方链接即可通过浏览器直接游玩：**
+
+> https://apcipotrain.github.io/minesweeper-vue/*(建议使用 Chrome、Edge 或 Firefox 浏览器以获得最佳体验)*
+
+------
+
+### 开发学习者
+
+如果你想查看源码、修改逻辑或进行本地调试，请按照以下步骤操作：
+
+#### 1. 前置要求
+
+确保你的电脑已安装 **[Node.js](https://nodejs.org/)** (建议版本 ≥ 18.0)。
+
+#### 2. 安装与启动
+
+1. **克隆项目/解压源码**： 进入项目根目录 `minesweeper-vue`。
+
+2. **安装依赖库**： 在终端（CMD 或 PowerShell）执行以下命令，下载 Vue 和 Vite 等开发环境：
+
+   Bash
+
    ```
-   
-2. **启动开发服务器**：
-
-   在 `minesweeper-vue` 文件夹下启动命令行（CMD/Terminal），执行：
-
-   ```Bash
-npm run dev
-   ```
-   
-   打开网址 http://localhost:5173/ 。
-
-3. **清除进度**：
-
-   按下 `F12` 进入开发者工具 -> **Application (应用)** -> **Local Storage**：
-
-   - **删除 `ms_stats`**：即可删除经典模式的历史战绩记录。
-   - **修改 `ms_unlocked_id`**：即可改变闯关模式的进度。
-   
-
-​		⚠️ 注意：当前逻辑支持范围为 `1-24`。手动修改超出此范围的值可能会导致渲染异常，请谨慎尝试。
-
-## **📦 运行与启动（开发学习者）**
-
-**项目现已脱离 Python 本地服务器限制，可在现代 Web 环境下直接运行：**
-
-1. **安装依赖**：
-
-   ```Bash
    npm install
    ```
 
-2. **启动开发服务器**：
+3. **启动开发服务器**：
 
-   在 `minesweeper-vue` 文件夹下启动命令行（CMD/Terminal），执行：
+   Bash
 
-   ```Bash
+   ```
    npm run dev
    ```
 
-   打开网址 http://localhost:5173/ 。
+4. **预览效果**： 访问终端输出的地址（通常为 `http://localhost:5173/`）。
 
-3. **清除进度**：
+#### 3. 进度清除
 
-   按下 `F12` 进入开发者工具 -> **Application (应用)** -> **Local Storage**：
+按下 `F12` 进入开发者工具 -> **Application (应用)** -> **Local Storage**：
 
-   - **删除 `ms_stats`**：即可删除经典模式的历史战绩记录。
-   - **修改 `ms_unlocked_id`**：即可改变闯关模式的进度。
+- **删除 `ms_stats`**：即可删除经典模式的历史战绩记录。
+- **修改 `ms_unlocked_id`**：即可改变闯关模式的进度。
 
 ​		⚠️ 注意：当前逻辑支持范围为 `1-24`。手动修改超出此范围的值可能会导致渲染异常，请谨慎尝试。
 
@@ -153,6 +145,28 @@ src/
 - **`.cell.open`**：已打开格子，具备 3D 凹陷效果与 `data-num` 颜色映射。
 - **`.locked`**：关卡锁定状态，具备灰度滤镜。
 
-------
+---
+
+## 👨‍💻 关于作者
+
+本项目用于前端学习与扫雷算法实践演示。
+
+作者：@apcipot_rain
+
+版本：v1.0 (2026.4.15)
+
+该版本可改进空间包括但不限于：
+
+1. 关卡更新、内容丰富
+2. 增加设置棋盘与雷数功能
+
+如果你觉得这个项目对你有帮助，欢迎关注我的动态：
+
+* **CSDN**: [apcipot_rain-CSDN博客](https://blog.csdn.net/xinghuayu_lin?spm=1000.2115.3001.5343)
+* **哔哩哔哩**: [【minesweeper扫雷】残局挑战关卡讲解_哔哩哔哩 bilibili_扫雷](https://www.bilibili.com/video/BV1BWzkB5EPi/?spm_id_from=333.1387.upload.video_card.click&vd_source=d7dc9e1808edc3c6c6ab787ea4b4bfa0)
+
+* **GitHub**: [我的GitHub](https://github.com/apcipotrain)
+
+**💡 欢迎交流、反馈 Bug 或提交 Pull Request！**
 
 感谢您体验 **Minesweeper Master (Vue Edition)**！这不仅是一个经典游戏的复刻，更是一个现代前端工程化的实战演练。

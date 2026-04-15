@@ -80,7 +80,7 @@ watch(gameOver, (lose) => {
 </script>
 
 <template>
-  <div class="game-stage" :style="{ backgroundImage: `url(/images/main_background${chapterId-1}.png)` }">
+  <div class="game-stage" :style="{ backgroundImage: `url(images/main_background${chapterId-1}.png)` }">
     
     <button class="back-btn-fixed" @click="emit('back')">返回</button>
 
