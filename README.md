@@ -27,7 +27,7 @@
 
 **项目现已脱离 Python 本地服务器限制，点击下方链接即可通过浏览器直接游玩：**
 
-> https://apcipotrain.github.io/minesweeper-vue/
+> https://apcipotrain.github.io/Minesweeper-Master-vue/
 >
 > 建议使用 Chrome、Edge 或 Firefox 浏览器以获得最佳体验
 
@@ -161,12 +161,12 @@ src/
 
 1. 关卡更新、内容丰富
 2. 增加设置棋盘与雷数功能
+3. 关卡难度梯度不够合理
 
 如果你觉得这个项目对你有帮助，欢迎关注我的动态：
 
 * **CSDN**: [apcipot_rain-CSDN博客](https://blog.csdn.net/xinghuayu_lin?spm=1000.2115.3001.5343)
-* **哔哩哔哩**: [【minesweeper扫雷】残局挑战关卡讲解_哔哩哔哩 bilibili_扫雷](https://www.bilibili.com/video/BV1BWzkB5EPi/?spm_id_from=333.1387.upload.video_card.click&vd_source=d7dc9e1808edc3c6c6ab787ea4b4bfa0)
-
+* **哔哩哔哩**: [【minesweeper扫雷】残局挑战关卡讲解_哔哩哔哩 bilibili_扫雷](https://www.bilibili.com/video/BV1BWzkB5EPi/?spm_id_from=333.1387.upload.video_card.click&vd_source=d7dc9e1808edc3c6c6ab787ea4b4bfa0)          [【minesweeper】vue框架重制版演示 大三才达到这个水平拖后b友了吗_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1XaQnBkE4W/?spm_id_from=333.1387.homepage.video_card.click&vd_source=d7dc9e1808edc3c6c6ab787ea4b4bfa0)
 * **GitHub**: [我的GitHub](https://github.com/apcipotrain)
 
 **💡 欢迎交流、反馈 Bug 或提交 Pull Request！**
